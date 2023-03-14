@@ -27,25 +27,25 @@ A transnational data set with transactions occurring between 1st December 2010 a
 
 8. Country: Country name. Nominal, the name of the country where each customer resides.
 
-Challenges:
+### Challenges:
 
 
    1. Data cleaning
    2. RFM analysis
    3. Deciding optimal number of clusters
 	 
-Model Summary :
+### Model Summary :
 
 Built a clustering model using K-means and Agglomerative clustering to identify major customer segments on transactions data for the UK based non-store online retail. Engineered new features to obtain new features such as RFM, busist days, time, month, RFMGroup, and RFMScore for getting more details about the customer. Obtained optimal number of clusters using Silhouette Analysis, Elbow Method and visual inspection of dendogram resulting from Hierarchical Clustering . Leveraged the visualization library t-SNE for multi-dimentional scaling to visualize and validate the inter-cluster separation and intra-cluster similarity.
 
 
-Conclusion :
+### Conclusion :
 
  ![Screenshot 2022-10-28 221247](https://user-images.githubusercontent.com/105766113/224969928-5ee1c786-835f-4ddc-96f0-5672d260a132.png)
 
 * We got optimal number of clusters=2 with the help of Elbow method, Silhouette score.
 
-Certificate-
+### Certificate-
 
 ![Customer segmentation Project](https://user-images.githubusercontent.com/105766113/224971446-10d5a1b4-84f9-43fb-8155-aa831a848c47.png)
 
